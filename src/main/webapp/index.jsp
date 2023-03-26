@@ -19,15 +19,15 @@
 <h4>
     <div class="container" align="justify">
 
-            Ты стоишь в космическом порту и готов подняться на борт
+        Ты стоишь в космическом порту и готов подняться на борт
 
-            своего корабля. Разве ты не об этом мечтал? Стать капитаном
+        своего корабля. Разве ты не об этом мечтал? Стать капитаном
 
-            галактического судна с экипажем, который будет совершать
+        галактического судна с экипажем, который будет совершать
 
-            подвиги под твоим командованием.
+        подвиги под твоим командованием.
 
-            Так что вперед!
+        Так что вперед!
 
 
     </div>
@@ -51,11 +51,11 @@
     </div>
 </h4>
 <br>
-<form class="form-horizontal" action="create" method="get" >
+<form class="form-horizontal" action="create" method="get">
     <div class="container">
 
-    <div class="col-md-4">
-            <div  class="g-4 py-5 row-cols-1 row-cols-lg-3" >
+        <div class="col-md-4">
+            <div class="g-4 py-5 row-cols-1 row-cols-lg-3">
                 <input id="name" name="name" type="text" placeholder="Введите имя" class="form-control input-md">
             </div>
 
@@ -66,8 +66,10 @@
                     <br/>
                     <br/>
 
+
                 </div>
-                <div> Дата прохождения квеста: <%= new java.util.Date()%></div>
+            </div>
+            <div> Дата прохождения квеста: <%= new java.util.Date()%>
             </div>
         </div>
     </div>

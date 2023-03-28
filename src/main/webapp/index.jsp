@@ -49,29 +49,22 @@
     </div>
 </h4>
 <br>
+<div class="container">
 <form class="form-horizontal" action="create" method="get">
-    <div class="container">
 
         <div class="col-md-4">
             <div class="g-4 py-5 row-cols-1 row-cols-lg-3">
-                <input id="name" name="name" type="text" placeholder="Введите имя" class="form-control input-md">
+                <label>
+                    <input id="name" name="name" type="text" placeholder="Введите имя" class="form-control input-md">
+                </label>
+
+                <button id="submit" class="btn btn-success">Представиться</button>
             </div>
 
-            <div class="container">
-                <label class="col-md-4 control-label" for="submit"></label>
-                <div class="col-md-4">
-                    <button id="submit" class="btn btn-success">Представиться</button>
-                    <br/>
-                    <br/>
-
-
-                </div>
-            </div>
             <div> Дата прохождения квеста: <%= new java.util.Date()%>
             </div>
         </div>
-    </div>
 </form>
-
+</div>
 </body>
 </html>

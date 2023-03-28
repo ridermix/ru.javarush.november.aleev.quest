@@ -50,7 +50,7 @@
 </h4>
 <br>
 <div class="container">
-<form class="form-horizontal" action="create" method="get">
+    <form class="form-horizontal" action="create" method="get">
 
         <div class="col-md-4">
             <div class="g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -64,7 +64,7 @@
             <div> Дата прохождения квеста: <%= new java.util.Date()%>
             </div>
         </div>
-</form>
+    </form>
 </div>
 </body>
 </html>

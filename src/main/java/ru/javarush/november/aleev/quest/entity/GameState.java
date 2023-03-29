@@ -1,4 +1,4 @@
-package ru.javarush.november.quest.entity;
+package ru.javarush.november.aleev.quest.entity;
 
 public enum GameState {
     PLAY,

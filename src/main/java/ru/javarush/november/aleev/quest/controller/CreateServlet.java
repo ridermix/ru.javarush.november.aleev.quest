@@ -1,8 +1,8 @@
-package ru.javarush.november.quest.controller;
+package ru.javarush.november.aleev.quest.controller;
 
 
 
-import ru.javarush.november.quest.service.GameService;
+import ru.javarush.november.aleev.quest.service.GameService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

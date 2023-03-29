@@ -1,12 +1,12 @@
-package ru.javarush.november.quest.util;
+package ru.javarush.november.aleev.quest.util;
 
 import lombok.experimental.UtilityClass;
-import ru.javarush.november.quest.entity.Answer;
-import ru.javarush.november.quest.entity.Quest;
-import ru.javarush.november.quest.entity.Question;
-import ru.javarush.november.quest.repository.AnswerRepository;
-import ru.javarush.november.quest.repository.QuestRepository;
-import ru.javarush.november.quest.repository.QuestionRepository;
+import ru.javarush.november.aleev.quest.entity.Answer;
+import ru.javarush.november.aleev.quest.entity.Quest;
+import ru.javarush.november.aleev.quest.entity.Question;
+import ru.javarush.november.aleev.quest.repository.AnswerRepository;
+import ru.javarush.november.aleev.quest.repository.QuestRepository;
+import ru.javarush.november.aleev.quest.repository.QuestionRepository;
 
 
 import java.util.HashSet;

@@ -1,11 +1,11 @@
-package ru.javarush.november.quest.service;
+package ru.javarush.november.aleev.quest.service;
 
 
 
-import ru.javarush.november.quest.entity.Game;
-import ru.javarush.november.quest.entity.GameState;
-import ru.javarush.november.quest.repository.GameRepository;
-import ru.javarush.november.quest.repository.Repository;
+import ru.javarush.november.aleev.quest.entity.Game;
+import ru.javarush.november.aleev.quest.entity.GameState;
+import ru.javarush.november.aleev.quest.repository.GameRepository;
+import ru.javarush.november.aleev.quest.repository.Repository;
 
 import java.time.LocalDateTime;
 import java.util.Collection;

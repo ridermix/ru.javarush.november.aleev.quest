@@ -1,7 +1,7 @@
-package ru.javarush.november.quest.repository;
+package ru.javarush.november.aleev.quest.repository;
 
 
-import ru.javarush.november.quest.entity.AbstractEntity;
+import ru.javarush.november.aleev.quest.entity.AbstractEntity;
 
 import java.util.HashMap;
 import java.util.Map;

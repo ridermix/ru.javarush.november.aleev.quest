@@ -1,10 +1,10 @@
-package ru.javarush.november.quest.controller;
+package ru.javarush.november.aleev.quest.controller;
 
-import ru.javarush.november.quest.entity.Answer;
-import ru.javarush.november.quest.entity.Game;
-import ru.javarush.november.quest.entity.GameState;
-import ru.javarush.november.quest.service.GameService;
-import ru.javarush.november.quest.service.QuestionService;
+import ru.javarush.november.aleev.quest.entity.Answer;
+import ru.javarush.november.aleev.quest.entity.Game;
+import ru.javarush.november.aleev.quest.entity.GameState;
+import ru.javarush.november.aleev.quest.service.GameService;
+import ru.javarush.november.aleev.quest.service.QuestionService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.stream.Collectors;
+
 
 @WebServlet(name = "gameServlet", value = "/game")
 public class GameServlet extends HttpServlet {

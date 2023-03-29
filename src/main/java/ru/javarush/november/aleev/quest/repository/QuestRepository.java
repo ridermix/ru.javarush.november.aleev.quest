@@ -1,7 +1,7 @@
-package ru.javarush.november.quest.repository;
+package ru.javarush.november.aleev.quest.repository;
 
 
-import ru.javarush.november.quest.entity.Quest;
+import ru.javarush.november.aleev.quest.entity.Quest;
 
 import java.util.Comparator;
 import java.util.stream.Stream;

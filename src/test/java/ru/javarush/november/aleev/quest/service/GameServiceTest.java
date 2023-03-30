@@ -3,7 +3,7 @@ package ru.javarush.november.aleev.quest.service;
 import org.junit.jupiter.api.Test;
 import ru.javarush.november.aleev.quest.entity.Game;
 import ru.javarush.november.aleev.quest.entity.GameState;
-import ru.javarush.november.aleev.quest.service.GameService;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

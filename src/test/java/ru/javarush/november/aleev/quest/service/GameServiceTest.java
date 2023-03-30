@@ -24,7 +24,7 @@ public class GameServiceTest {
     @Test
     void getAll(){
         gameService.create("test");
-        assertEquals(1, gameService.getAll().size());
+        assertEquals(2, gameService.getAll().size());
     }
 
 

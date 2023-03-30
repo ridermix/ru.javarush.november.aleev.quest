@@ -16,13 +16,13 @@ public class AnswerRepository extends AbstractRepository<Answer> implements Repo
         return answerRepository;
     }
 
-    @Override
-    public Stream<Answer> find(Answer pattern) {
-        return map.values().stream()
-                .filter(entity -> isOk(pattern,entity, Answer::getId)
-                        && isOk(pattern,entity,Answer::getQuestionId)
-                        && isOk(pattern,entity,Answer::getText)
-                )
-                .sorted(Comparator.comparingLong(Answer::getId));
-    }
+//    @Override
+//    public Stream<Answer> find(Answer pattern) {
+//        return map.values().stream()
+//                .filter(entity -> isOk(pattern,entity, Answer::getId)
+//                        && isOk(pattern,entity,Answer::getQuestionId)
+//                        && isOk(pattern,entity,Answer::getText)
+//                )
+//                .sorted(Comparator.comparingLong(Answer::getId));
+//    }
 }

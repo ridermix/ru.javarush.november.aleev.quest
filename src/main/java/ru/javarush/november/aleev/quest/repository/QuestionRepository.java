@@ -16,14 +16,14 @@ public class QuestionRepository extends AbstractRepository<Question> implements 
         return questionRepository;
     }
 
-    @Override
-    public Stream<Question> find(Question pattern) {
-        return map.values().stream()
-                .filter(entity -> isOk(pattern,entity,Question::getId)
-                        && isOk(pattern, entity,Question::getQuestId)
-                        && isOk(pattern, entity, Question::getText)
-                        && isOk(pattern, entity,Question::getAnswers)
-                )
-                .sorted(Comparator.comparingLong(Question::getId));
-    }
+//    @Override
+//    public Stream<Question> find(Question pattern) {
+//        return map.values().stream()
+//                .filter(entity -> isOk(pattern,entity,Question::getId)
+//                        && isOk(pattern, entity,Question::getQuestId)
+//                        && isOk(pattern, entity, Question::getText)
+//                        && isOk(pattern, entity,Question::getAnswers)
+//                )
+//                .sorted(Comparator.comparingLong(Question::getId));
+//    }
 }

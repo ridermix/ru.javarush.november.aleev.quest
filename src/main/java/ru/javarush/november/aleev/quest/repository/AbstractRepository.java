@@ -20,14 +20,14 @@ public abstract class AbstractRepository<T extends AbstractEntity> implements Re
         return map.values().stream();
     }
 
-    @Override
-    public abstract Stream<T> find(T pattern);
+//    @Override
+//    public abstract Stream<T> find(T pattern);
 
-    protected <V> boolean isOk(T pattern, T current, Function<T, V> fieldGetter) {
-        V currentFieldValue = fieldGetter.apply(current);
-        V patternFieldValue = fieldGetter.apply(pattern);
-        return Objects.isNull(patternFieldValue) || patternFieldValue.equals(currentFieldValue);
-    }
+//    protected <V> boolean isOk(T pattern, T current, Function<T, V> fieldGetter) {
+//        V currentFieldValue = fieldGetter.apply(current);
+//        V patternFieldValue = fieldGetter.apply(pattern);
+//        return Objects.isNull(patternFieldValue) || patternFieldValue.equals(currentFieldValue);
+//    }
 
     @Override
     public T get(Long id) {
@@ -47,8 +47,8 @@ public abstract class AbstractRepository<T extends AbstractEntity> implements Re
         map.put(entity.getId(), entity);
     }
 
-    @Override
-    public void delete(T entity) {
-        map.remove(entity.getId());
-    }
+//    @Override
+//    public void delete(T entity) {
+//        map.remove(entity.getId());
+//    }
 }
